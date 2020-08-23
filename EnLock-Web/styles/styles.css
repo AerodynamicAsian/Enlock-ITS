@@ -1,0 +1,130 @@
+html {
+    scroll-behavior: smooth;
+  }
+.topbar-container{
+    height: 98px;
+    margin: 0px 371px 0px 371px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.topbar{
+    background-color: cadetblue;
+}
+.topbar ul{
+    list-style: none;
+}
+.topbar-logo{
+    float: left;
+}
+.topbar-phonenumber{
+    padding-left: 300px;
+    color: #9d0618;
+}
+.topbar-logo h1{
+    padding-top: 25px;
+    float: left;
+}
+.topbar-logo img{
+    float: left;
+    width: 90px;
+}
+.topbar ul li{
+    float: ;
+    padding-right: 20px;
+    display: inline-block;
+}
+.topbar nav{
+    padding-right: 50px;
+    float: right;
+}
+.topbar ul li a{
+    color: black;
+    text-decoration: none;
+}
+
+.home-background-main{
+    background-image: url("../resources/background-home.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    text-align: center;
+    height: 800px;
+}
+.home-background-main h1{
+    padding-top: 320px;
+    color: black;
+    text-align: center;
+    font-family: Montserrat,Helvetica,Arial;
+    font-size: 55px;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+.home-background-main h2{
+    color: black;
+    text-align: center;
+    font-family: Montserrat,Helvetica,Arial;
+    font-size: 30px;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+.home-background-main a{
+    color: #9d0618;
+    font-weight: 600;
+}
+body{
+    margin: 0px;
+}
+.whatWeOffer-Button{
+    text-align: center;
+}
+.whatWeOffer{
+    padding-top: 100px;
+    text-align: center;
+}
+.whatWeOffer h1{
+    color: #9d0618;
+}
+.whatWeOfferPT2{
+    padding-top: 100px;
+    background-color: #9d0618;
+    color: white;
+}
+.btn-learnmore{
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #9d0618;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 250px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+  margin-bottom: 100px;
+}
+.btn-learnmore span{
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+.btn-learnmore span:after{
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;    
+}
+.btn-learnmore:hover span{
+    padding-right: 25px;
+}
+.btn-learnmore:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+.col-xl:last-child{
+    background-color: #f0efef !important;
+}
