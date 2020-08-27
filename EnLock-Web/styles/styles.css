@@ -1,32 +1,52 @@
+:root{
+    --secondary-purple: #b395ba;
+    --primary-purple: rgb(255, 148, 163);
+}
+footer{
+    width: 100%;
+    background-color: var(--secondary-purple);
+    height: 150px;
+}
 html {
     scroll-behavior: smooth;
   }
+.top{
+    background: rgb(2,0,36);
+    background: linear-gradient(0deg, rgba(2,0,36,0) 0%, rgba(9,9,121,0) 18%, rgba(0,0,0,1) 100%);
+    width: 100%;
+    position: absolute;
+    background-color: transparent;
+}
 .topbar-container{
-    height: 98px;
-    margin: 0px 371px 0px 371px;
-    padding-right: 15px;
-    padding-left: 15px;
+    margin-top: 30px;
+    height: 150px;
+}
+.topbar-rightContainer{
+    right: 150px;
+    position: absolute;
+    float: right;
 }
 .topbar{
-    background-color: cadetblue;
+    width: 100%;
 }
 .topbar ul{
     list-style: none;
 }
 .topbar-logo{
+    left: 150px;
+    position: absolute;
+    float: left;
+}
+.topbar-logo a img{
+    width: 15%;
     float: left;
 }
 .topbar-phonenumber{
-    padding-left: 300px;
-    color: #9d0618;
+    color: white;
 }
 .topbar-logo h1{
     padding-top: 25px;
     float: left;
-}
-.topbar-logo img{
-    float: left;
-    width: 90px;
 }
 .topbar ul li{
     padding-right: 20px;
@@ -37,32 +57,29 @@ html {
     float: right;
 }
 .topbar ul li a{
-    color: black;
+    color: salmon;
     text-decoration: none;
 }
-
 .home-background-main{
-    background-image: url("../resources/city.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: 100%;
+    z-index: 10;
     text-align: center;
-    height: 800px;
     
 }
 .home-background-main h1{
     padding-top: 320px;
-    color: white;
+    text-shadow: 0px 0px 20px rgb(0, 0, 0);
+    color: salmon;
     text-align: center;
     font-family: Montserrat,Helvetica,Arial;
     font-size: 55px;
     font-weight: 600;
     letter-spacing: 2px;
-    animation: expandh1;
-    animation-duration: 2s;
+    /*animation: expandh1;
+    animation-duration: 2s;*/
 }
 .home-background-main h2{
     color: white;
+    text-shadow: 0px 0px 10px rgb(0, 0, 0);
     text-align: center;
     font-family: Montserrat,Helvetica,Arial;
     font-size: 30px;
@@ -70,7 +87,7 @@ html {
     letter-spacing: 2px;
 }
 .home-background-main a{
-    color: #9d0618;
+    color: purple;
     font-weight: 600;
 }
 body{
@@ -80,21 +97,25 @@ body{
     text-align: center;
 }
 .whatWeOffer{
-    padding-top: 100px;
+    margin-top: 300px;
     text-align: center;
 }
 .whatWeOffer h1{
-    color: #9d0618;
+    color: salmon;
 }
 .whatWeOfferPT2{
-    padding-top: 100px;
-    background-color: #9d0618;
+    padding-top: 50px;
+    background-color: var(--secondary-purple);
     color: white;
+}
+.whatWeOfferPT2 img{
+    width: 50px;
+    padding-bottom: 20px;
 }
 .btn-learnmore{
   display: inline-block;
   border-radius: 4px;
-  background-color: #9d0618;
+  background-color: transparent;
   border: none;
   color: #FFFFFF;
   text-align: center;
@@ -130,6 +151,48 @@ body{
 .col-xl:last-child{
     background-color: #f0efef !important;
 }
+
+.rslides {
+    position: absolute;
+    z-index: -3;
+    height: 800px;
+    list-style: none;
+    overflow: hidden;
+    width: 100%;
+    transition: ease-in-out 1s;
+    padding: 0;
+    margin: 0;
+}
+  
+.rslides li {
+    -webkit-backface-visibility: hidden;
+    position: absolute;
+    display: none;
+    width: 100%;
+    left: 0;
+    top: 0;
+}
+  
+.rslides li:first-child {
+    position: relative;
+    display: block;
+    float: left;
+}
+  
+.rslides img {
+    display: block;
+    height: auto;
+    float: left;
+    image-resolution: 50%;
+    width: 100%;
+    border: 0;
+}
+  
+
+
+
+
+
 @keyframes expandh1{
     0%{font-size: 0px;}
     100%{font-size: 55px;}

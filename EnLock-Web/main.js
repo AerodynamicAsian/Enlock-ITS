@@ -1,3 +1,4 @@
+Aos.init();
 $(document).ready(function(){
     // Add smooth scrolling to all links
     $("a").on('click', function(event) {
@@ -6,18 +7,18 @@ $(document).ready(function(){
       if (this.hash !== "") {
         // Prevent default anchor click behavior
         event.preventDefault();
-  
+        
         // Store hash
         var hash = this.hash;
-  
+        window.location.hash = hash;
         // Using jQuery's animate() method to add smooth page scroll
         // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
         $('html, body').animate({
           scrollTop: $(hash).offset().top
-        }, 800, function(){
+        }, 50, function(){
      
           // Add hash (#) to URL when done scrolling (default click behavior)
-          //window.location.hash = hash;
+          
         });
       } // End if
     });
@@ -25,3 +26,12 @@ $(document).ready(function(){
 $(document).ready(function(){
 
 })
+/////////////////////
+//Responsive Slides//
+/////////////////////
+$(function() {
+  $(".rslides").responsiveSlides({
+    speed: 150,
+    auto: true
+  });
+});
