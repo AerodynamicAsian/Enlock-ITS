@@ -1,6 +1,6 @@
 :root{
     --secondary-purple: #b395ba;
-    --primary-purple: rgb(255, 148, 163);
+    --primary-salmon: salmon;
 }
 footer{
     width: 100%;
@@ -27,6 +27,7 @@ html {
     float: right;
 }
 .topbar{
+    z-index: 2;
     width: 100%;
 }
 .topbar ul{
@@ -94,10 +95,12 @@ body{
     margin: 0px;
 }
 .whatWeOffer-Button{
+    animation: breath 3s infinite;
     text-align: center;
 }
 .whatWeOffer{
     margin-top: 300px;
+    padding-top: 50px;
     text-align: center;
 }
 .whatWeOffer h1{
@@ -114,7 +117,6 @@ body{
 }
 .btn-learnmore{
   display: inline-block;
-  border-radius: 4px;
   background-color: transparent;
   border: none;
   color: #FFFFFF;
@@ -183,21 +185,40 @@ body{
     display: block;
     height: auto;
     float: left;
-    image-resolution: 50%;
     width: 100%;
     border: 0;
 }
+
+hr{
+    margin: 0px 0px 0px 0px;
+}
+.about-Enlock-Home{
+    height: 900px;
+    background-color: var(--primary-salmon);
+    margin: 0px 0px 0px 0px;
+}
+.about-Enlock-Home-text{
+    float: left;
+}
+.about-Enlock-Home h1{
+    color: white;
+}
+.about-Enlock-Home img{
+    position: absolute;
+    width: 33%;
+    right: 0px;
+}
+.about-Enlock-Home h4{
+    color: white;
+    margin-bottom: 0px;
+}
+.home-columns{
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
   
-
-
-
-
-
-@keyframes expandh1{
-    0%{font-size: 0px;}
-    100%{font-size: 55px;}
-}
-@keyframes expandh2{
-    0%{font-size: 0px;}
-    100%{font-size: 30px;}
-}
+@keyframes breath {
+    0%   { width: 100% auto; }
+    50% { width: 110% auto; }
+    100% { width: 100% auto; }
+  }
