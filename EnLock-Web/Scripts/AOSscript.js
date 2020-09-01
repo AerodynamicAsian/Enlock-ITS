@@ -483,6 +483,9 @@
                     case "center-center":
                         n += i / 7 + e.offsetHeight;
                         break;
+                    case "center-center-fast":
+                        n += i / e.offsetHeight;
+                        break;
                     case "top-top":
                         n += i;
                         break;

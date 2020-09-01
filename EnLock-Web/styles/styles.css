@@ -150,7 +150,7 @@ body{
     opacity: 1;
     right: 0;
 }
-.col-xl:last-child{
+.home-columns:last-child{
     background-color: #f0efef !important;
 }
 
@@ -213,8 +213,14 @@ hr{
     margin-bottom: 0px;
 }
 .home-columns{
-    padding-bottom: 50px;
-    padding-top: 50px;
+    padding-bottom: 100px;
+    padding-top: 100px;
+    text-align: center;
+}
+.home-columns img{
+    text-align: center;
+    width: 30%;
+
 }
   
 @keyframes breath {
