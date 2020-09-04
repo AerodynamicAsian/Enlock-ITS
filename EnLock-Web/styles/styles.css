@@ -4,7 +4,8 @@
 }
 footer{
     width: 100%;
-    background-color: var(--secondary-purple);
+    background-color: black;
+    color: white;
     height: 150px;
 }
 html {
@@ -193,8 +194,8 @@ hr{
     margin: 0px 0px 0px 0px;
 }
 .about-Enlock-Home{
-    height: 900px;
-    background-color: var(--primary-salmon);
+    height: 600px;
+    background-color: var(--secondary-purple);
     margin: 0px 0px 0px 0px;
 }
 .about-Enlock-Home-text{
@@ -204,9 +205,8 @@ hr{
     color: white;
 }
 .about-Enlock-Home img{
-    position: absolute;
-    width: 33%;
-    right: 0px;
+    height: 600px;
+    float: right;
 }
 .about-Enlock-Home h4{
     color: white;
