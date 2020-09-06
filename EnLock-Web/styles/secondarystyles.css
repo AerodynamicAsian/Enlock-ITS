@@ -8,26 +8,23 @@ footer{
     color: white;
     height: 150px;
 }
-html {
-    scroll-behavior: smooth;
-  }
 .top{
     background: rgb(2,0,36);
-    background: linear-gradient(0deg, rgba(2,0,36,0) 0%, rgba(9,9,121,0) 18%, rgba(0,0,0,1) 100%);
     width: 100%;
-    position: absolute;
-    background-color: transparent;
+    background-color: black;
 }
 .topbar-container{
-    margin-top: 30px;
-    height: 150px;
+    background-color: black;
 }
 .topbar-rightContainer{
+    background-color: black;
     right: 150px;
     position: absolute;
     float: right;
 }
 .topbar{
+    background-color: black;
+    height: 100px;
     z-index: 2;
     width: 100%;
 }
@@ -42,6 +39,9 @@ html {
 .topbar-logo a img{
     width: 15%;
     float: left;
+}
+.whatWeOffer{
+    padding-top: 150px;
 }
 .topbar-phonenumber{
     color: white;
@@ -95,27 +95,7 @@ html {
 body{
     margin: 0px;
 }
-.whatWeOffer-Button{
-    animation: breath 3s infinite;
-    text-align: center;
-}
-.whatWeOffer{
-    margin-top: 300px;
-    padding-top: 50px;
-    text-align: center;
-}
-.whatWeOffer h1{
-    color: salmon;
-}
-.whatWeOfferPT2{
-    padding-top: 50px;
-    background-color: var(--secondary-purple);
-    color: white;
-}
-.whatWeOfferPT2 img{
-    width: 50px;
-    padding-bottom: 20px;
-}
+
 .btn-learnmore{
   display: inline-block;
   background-color: transparent;
