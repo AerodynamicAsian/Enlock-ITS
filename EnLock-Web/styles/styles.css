@@ -221,6 +221,10 @@ hr{
     width: 30%;
 
 }
+
+.Services-Banner{
+    width: 1%;
+}
   
 @keyframes breath {
     0%   { width: 100% auto; }
