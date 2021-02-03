@@ -1,13 +1,18 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <!--Online CSS Librarys-->
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
         <link rel="stylesheet" href="styles/styles.css">
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"/>
+        <!--Browser Icon for web page-->
         <link rel="icon" href="favicon.ico">
-        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
-        <script src="responsiveslides.js"></script>
-        <script src="main.js"></script>
+        <!--Scripts in scripts Folder-->
+        <script src="Scripts/AOSscript.js"></script>
+        <script src="Scripts/GoogleAPI1.js"></script>
+        <script src="Scripts/responsiveSlides.min.js"></script>
+        <script src="Scripts/main.js"></script>
         <title>Enlock ITS - Home</title>
     </head>
     <body>
@@ -55,44 +60,92 @@
         <div class="home-background-main">
             <h1>ENLOCK ITS</h1>
             <h2>ENLOCK YOUR BUSINESSES TRUE POTENTIAL<br>WITH ENLOCK I.T.S</h2>
-            <a class="whatWeOffer-Button" href="#whatweOffer" id=""><img src="https://img.icons8.com/windows/32/000000/chevron-down.png"/></a>
+            <a class="whatWeOffer-Button animate__bounce" href="#whatweOffer" id=""><img src="https://img.icons8.com/windows/32/000000/chevron-down.png"/></a>
         </div>
         <div class="whatWeOffer" id="whatweOffer">
-            <h1>What We Offer</h1>
-            <p>At Enlock we are dedicated to getting the job done no matter the task at hand, and finishing
-                the job with adaptability for future needs.
-                <br>
-            </p>
+            <div data-aos="zoom-in">
+                <h1>What We Offer</h1>
+            </div>
+
+            <div data-aos="zoom-in">
+                <p>At Enlock we are dedicated to getting the job done no matter the task at hand, and finishing
+                    the job with adaptability for future needs.
+                    <br>
+                </p>
+            </div>
             <div class="whatWeOfferPT2">
+
+                <div data-aos="fade-up" data-aos-anchor-placement="center-center-fast">
                     <img src="resources/Logo.png">
+                </div>
+
+                <div data-aos="fade-up" data-aos-anchor-placement="center-center-fast">
+                <h2>TAILORED IT SOLUTIONS<br>
+                SUITED TO YOUR BUSINESS & YOUR NEEDS</h2>
                 
-                <h2>A FUTURE FOCUSED TEAM, PROVIDING<br>
-                    PROFESSIONAL IT SUPPORT</h2>
-                <p>With more than three decades’ experience, we have the skills, expertise and<br>
-                    capability to help you navigate all aspects of computing technology.<br>
+                <p>Here at enlock we pride ourselve on our constant growth of knowledge.<br>
+                   Giving us constant improvements to our work and to your business<br>
                     <br>
                     
-                    From helpdesk support to architecture and design, from security risk minimisation to incident response, our enterprise-level services and solutions <br>will deliver real value to your business.</p>
-
-                <button class="btn-learnmore"><span>Learn More</span></button>
+                  From software development, to website design and development, we will do <br>
+                  whatever it takes to deliver a desirable, and satisfying end product.<br>
+                <br>ENlock delivers true value to all types of businesses.</p>
+                
+                    <button class="btn-learnmore"><span>Learn More</span></button>
+                </div>
             </div>
         </div>
         <div class="container">
             <div class="row">
-              <div class="col-xl">
-                <h3>Fast & Effective</h3>
-                <p>Ageing hardware and difficulty of migrating control apps to a new platform (meant a total rebuild, reconfig, re-commissioning) but virtualisation of servers was chosen to improve availability and recoverability. There was doubt as to whether w2000k based server, real time controls, data-links / databases, HMIs, engineering and diagnostics would work properly. Advantage worked through these issues with us, trial runs were made on hot-spare systems, providing a fast and effective way of virtualising this.
-                   <br> WINSTONE PULP <br>INTERNATIONAL
-                    OKAHUNE</p>
+              <div class="col-xl home-columns">
+                <h3>COMMUNICATION & DEDICATION</h3>
+                <img src="resources/dialog.svg">
+                <p>Throughout our projects we deliver you constant updates and implement any needs or requirements you have into the project at hand.
+                    <br> We are a dedicated team committed to doing whatever it takes to get the job done and deliver not just the end product but also implement future proofing needs, and always be available for requests in the future.
+                </p>
               </div>
-              <div class="col-xl">
-                <h3>Our Partners</h3>
-                Oh wait Ooof
-              </div>
+              <div class="col-xl home-columns">
+                <h3>CLIENT TESTIMONIES</h3>
+                <img src="resources/review.svg">
+                <p><span style="font-weight: bold;">Tony Lyne: </span>"Joining up with Enlock to create our business website was something amazing for our business<br> they contantly communicated with us "</p>
+            </div>
             </div>
           </div>
+
+          <hr>
+
+            <div class="row">
+                <div class="col-xl about-Enlock-Home">
+                    <div class="about-Enlock-Home-text">
+                        <h1>About Enlock</h1>
+                        <h4>Chris Cook</h4>
+                    </div>
+                </div>
+                <div class="col-xl about-Enlock-Home">
+                    <div class="about-Enlock-Home-text">
+                        <h1>About Enlock</h1>
+                        <h4>Isaac Lyne</h4>
+                    </div>
+                </div>
+          </div>
+
+          <!--Important!!!! For Scroll animations to function-->
+          <script>
+            AOS.init();
+        </script>
     </body>
     <footer>
-
+        <div class="container">
+            <div class="row">
+                <div class="col-xl">
+                    <h3>SIGN UP FOR OUR NEWSLETTER:</h3>
+                    
+                </div>
+                <div class="col-xl">
+                    <h3>CONTACT US:</h3>
+                    <p>0800SuckYourMum</p>
+                </div>
+            </div>
+        </div>
     </footer>
 </html>
