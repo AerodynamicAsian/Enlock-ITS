@@ -99,8 +99,12 @@ body{
     animation: breath 3s infinite;
     text-align: center;
 }
-.whatWeOffer{
+.opening-statement{
     margin-top: 300px;
+    padding-top: 50px;
+    text-align: center;
+}
+.whatWeOffer{
     padding-top: 50px;
     text-align: center;
 }
@@ -168,6 +172,7 @@ body{
 }
   
 .rslides li {
+    backface-visibility: hidden;
     -webkit-backface-visibility: hidden;
     position: absolute;
     display: none;
@@ -224,6 +229,10 @@ hr{
 
 .Services-Banner{
     width: 1%;
+}
+.Copyright-Statement{
+    margin-top: 20px;
+    margin-left: 20px;
 }
   
 @keyframes breath {
