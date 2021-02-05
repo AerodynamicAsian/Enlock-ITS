@@ -8,6 +8,20 @@ footer{
     color: white;
     height: 150px;
 }
+.Services{
+
+}
+.Services-wrapper{
+ 
+}
+
+.Services-wrapper h1{
+    color: var(--primary-salmon);
+}
+.Services-Banner{
+    width: 100%;
+    height: 300px;
+}
 .top{
     background: rgb(2,0,36);
     width: 100%;
@@ -41,7 +55,7 @@ footer{
     float: left;
 }
 .whatWeOffer{
-    padding-top: 150px;
+    padding-top: 0px;
 }
 .topbar-phonenumber{
     color: white;
