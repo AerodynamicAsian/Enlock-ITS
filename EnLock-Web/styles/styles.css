@@ -8,6 +8,10 @@ footer{
     color: white;
     height: 150px;
 }
+.bio{
+    padding: 10px;
+    color: white;
+}
 html {
     scroll-behavior: smooth;
   }
