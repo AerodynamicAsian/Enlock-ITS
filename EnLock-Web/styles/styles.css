@@ -1,5 +1,6 @@
 :root{
     --secondary-purple: #b395ba;
+    --secondary-purple-dark: #8f7894;
     --primary-salmon: salmon;
 }
 footer{
@@ -11,6 +12,14 @@ footer{
 .bio{
     padding: 10px;
     color: white;
+}
+.about-header{
+    text-align: center;
+    background: var(--primary-salmon);
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 0px;
 }
 html {
     scroll-behavior: smooth;
@@ -218,6 +227,9 @@ hr{
 .about-Enlock-Home h4{
     color: white;
     margin-bottom: 0px;
+}
+.about-Enlock-Home:last-child{
+    background-color: var(--secondary-purple-dark);
 }
 .home-columns{
     padding-bottom: 100px;
