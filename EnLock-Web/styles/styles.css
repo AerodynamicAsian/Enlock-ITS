@@ -199,18 +199,17 @@ hr{
     margin: 0px 0px 0px 0px;
 }
 .about-Enlock-Home{
-    height: 600px;
+    height: 700px;
     background-color: var(--secondary-purple);
     margin: 0px 0px 0px 0px;
 }
 .about-Enlock-Home-text{
-    float: left;
 }
 .about-Enlock-Home h1{
     color: white;
 }
 .about-Enlock-Home img{
-    height: 300px;
+    height: 600px;
 }
 .about-Enlock-Home h4{
     color: white;
