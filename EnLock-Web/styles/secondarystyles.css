@@ -8,19 +8,24 @@ footer{
     color: white;
     height: 150px;
 }
-.Services{
-
+.Services i{
+    width: 100%;
+    text-align: center;
+}
+.Services .row{
+    margin-top: 20px;
 }
 .Services-wrapper{
  
 }
-
+.icon-services{
+    width: 100px;
+}
 .Services-wrapper h1{
     color: var(--primary-salmon);
 }
 .Services-Banner{
     width: 100%;
-    height: 300px;
 }
 .top{
     background: rgb(2,0,36);
