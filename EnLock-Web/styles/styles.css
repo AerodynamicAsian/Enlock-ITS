@@ -3,6 +3,7 @@
     --secondary-purple-dark: #8f7894;
     --primary-salmon: salmon;
 }
+
 footer{
     width: 100%;
     background-color: black;
@@ -248,6 +249,11 @@ hr{
 .Copyright-Statement{
     margin-top: 20px;
     margin-left: 20px;
+}
+.contact-button{
+    background-color: white;
+    outline: white;
+    box-shadow: transparent;
 }
   
 @keyframes breath {

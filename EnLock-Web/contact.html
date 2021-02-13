@@ -6,6 +6,7 @@
         <link rel="stylesheet" href="styles/secondarystyles.css">
         <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"/>
+        <link rel="stylesheet" href="styles/form.css">
         <!--Browser Icon for web page-->
         <link rel="icon" href="favicon.ico">
         <script src="Scripts/GoogleAPI1.js"></script>
@@ -29,19 +30,19 @@
                                     <a href="index.html">Home</a>
                                 </li>
                                 <li>
-                                    <a href="">Services</a>
+                                    <a href="services.html">Services</a>
                                 </li>
                                 <li>
-                                    <a href="">About</a>
+                                    <a href="about.html">About</a>
                                 </li>
                                 <li>
-                                    <a href="">Case Studies</a>
+                                    <a href="case studies.html">Case Studies</a>
                                 </li>
                                 <li>
-                                    <a href="">News</a>
+                                    <a href="news.html">News</a>
                                 </li>
                                 <li>
-                                    <a href="">Contact</a>
+                                    <a href="contact.html">Contact</a>
                                 </li>
                             </ul>
                         </div>
@@ -50,18 +51,33 @@
             </div>
         </div>
         <div class="body-wrapper">
-            <div class="Services">
-                <div class="Services-wrapper">
+            <div class="ContactForm">
+                <div class="ContactForm-wrapper">
                     <img src="resources/coding.jpeg" class="Services-Banner">
                     <div class="container">
-                                <h1>
-                                    Tailored IT Solutions
-                                </h1>
-                                <p>
-                                    At Enlock we understand that not everything with technology can be straight forward, that is why <br>
-                                    we dedicate ourselves to being able to undertake any sort of task no matter the problem, being honest<br>
-                                    and trustworthy communicating with clients along the way.
-                                </p>
+                        <div class="containerform">
+                                    <h1>Contact Our Team!</h1>
+                                    <form action="action_page.php">
+
+                                        <label for="fname">First Name</label>
+                                        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                                    
+                                        <label for="lname">Last Name</label>
+                                        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                                    
+                                        <label for="country">Country</label>
+                                        <select id="country" name="country">
+                                        <option value="australia">Australia</option>
+                                        <option value="canada">Canada</option>
+                                        <option value="usa">USA</option>
+                                        </select>
+                                    
+                                        <label for="subject">Subject</label>
+                                        <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+                                    
+                                        <input type="submit" value="Submit">
+                                    </form>
+                                </div>
                             </div>
                         </div>
                     </div>

@@ -290,6 +290,9 @@ hr{
       padding-top: 30px;
     margin-top: 0px;
   }
+  .about-page{
+
+  }
 @keyframes breath {
     0%   { width: 100% auto; }
     50% { width: 110% auto; }
