@@ -1,7 +1,9 @@
 $(document).ready(function(){
     // Add smooth scrolling to all links
     $("a").on('click', function(event) {
-  
+      cIsaac = document.getElementById("ContactIsaac");
+      cIsaac.addEventListener("click", contact_isaac);
+
       // Make sure this.hash has a value before overriding default behavior
       if (this.hash !== "") {
         // Prevent default anchor click behavior
@@ -22,6 +24,11 @@ $(document).ready(function(){
       } // End if
     });
   });
+
+  function contact_isaac(){
+    alert("test")
+  }
+
 $(function() {
   $(".rslides").responsiveSlides();
 });
