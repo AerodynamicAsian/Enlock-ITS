@@ -101,6 +101,11 @@ footer a:hover{
 }
 .topbar-phonenumber{
     color: white;
+    text-decoration: none;
+}
+.topbar-phonenumber:hover{
+    color: white;
+    text-decoration: none;
 }
 .topbar-logo h1{
     padding-top: 25px;
