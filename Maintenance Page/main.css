@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap');
+
+.logoImage{
+    width: 50%;
+}
+html{
+    
+}
+body{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    color: #582364;
+}
+h1{
+    font-family: 'Open Sans', sans-serif;
+}
+li{
+    list-style: none;
+}
+li a{
+    color: salmon;
+    text-decoration: none;
+}
